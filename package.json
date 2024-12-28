@@ -9,6 +9,7 @@
     "lint": "eslint . --fix",
     "test": "jest",
     "coverage": "jest --testPathPattern=./src/ --coverage",
+    "legacy": "$env:NODE_OPTIONS = '--openssl-legacy-provider'",
     "e2e": "jest --testPathPattern=./e2e/ --runInBand",
     "doc": "jsdoc -c jsdoc.conf.json",
     "preshow:coverage": "npm run coverage",
