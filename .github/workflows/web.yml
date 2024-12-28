@@ -41,7 +41,8 @@ jobs:
           node-version: 20.11.0
           cache: 'yarn'
       - run: yarn
-      - run: yarn test
+      - run: yarn coverage
+      # - run: yarn e2e
 
   build:
     needs: [eslint, test]
@@ -59,6 +60,7 @@ jobs:
           node-version: 20.11.0
           cache: 'yarn'
       - run: yarn
+      - run: $env:NODE_OPTIONS = "--openssl-legacy-provider" 
       - run: yarn build
       - name: Setup Pages
         uses: actions/configure-pages@v4

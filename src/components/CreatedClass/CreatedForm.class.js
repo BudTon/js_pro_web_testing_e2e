@@ -45,7 +45,11 @@ export default class CreatedForm {
 
   onSubmit(e) {
     e.preventDefault();
-    luhnAlgorithm(this.input.value, this.submit);
+    if (this.input.value !== '') {
+      luhnAlgorithm(this.input.value, this.submit);
+    } else {
+      isValidNum(this.input, 'zero click');
+    }
   }
 
   onText(e) {
