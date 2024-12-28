@@ -14,9 +14,9 @@
 
 ### Credit Card Validator
 
-![CI](https://github.com/BudTon/BudTon/js_pro_web_testing/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/BudTon/BudTon/js_pro_web_testing_e2e/actions/workflows/web.yml/badge.svg)
 
-[GitHub Pages](url)
+[GitHub Pages]([url](https://budton.github.io/js_pro_web_testing_e2e/))
 
 #### Легенда
 
