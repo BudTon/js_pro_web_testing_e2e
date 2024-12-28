@@ -1,0 +1,23 @@
+visa.png
+  source: https://icon-icons.com/ru/download/84586/PNG/64/
+
+mastercard.png
+  source: https://icon-icons.com/ru/download/84584/PNG/64/
+
+american-express.png
+  source: https://icon-icons.com/ru/download/84588/PNG/64/
+
+discover.png
+  source: https://icon-icons.com/ru/значок/обнаружив-оплата-карта-банкоматы-дебетовые-кредитные/84587
+
+jcb.png
+  source: https://icon-icons.com/ru/download/84593/PNG/64/
+
+diners-club.png
+  source: https://icon-icons.com/ru/download/82252/PNG/64/
+
+mir.png
+  source: https://icons8.ru/icon/59239/%D0%BC%D0%B8%D1%80
+
+
+
