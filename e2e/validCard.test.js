@@ -21,9 +21,9 @@ describe("Valid Card", () => {
     });
 
     browser = await puppeteer.launch({
-      // headless: false, // show gui
-      // slowMo: 250,
-      // devtools: true, // show devTools
+      headless: false, // show gui
+      slowMo: 250,
+      devtools: true, // show devTools
     });
     page = await browser.newPage();
   });
