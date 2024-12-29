@@ -6,7 +6,9 @@ export default class CreatedWidget {
 
   init() {
     this.parent.insertAdjacentHTML('beforeend', '<h1>4. Домашнее задание к лекции «Организация тестирования»</h1>');
-    this.parent.insertAdjacentHTML('beforeend', '<h2>4.1 Credit Card Validator, 4.2 Puppeteer, 4.3 JSDOM (задача со звёздочкой)</h2>');
+    this.parent.insertAdjacentHTML('beforeend', '<h2>4.1 Credit Card Validator,</h2>');
+    this.parent.insertAdjacentHTML('beforeend', '<h2>4.2 Puppeteer (задача со звёздочкой),</h2>');
+    this.parent.insertAdjacentHTML('beforeend', '<h2>4.3 JSDOM (задача со звёздочкой)</h2>');
     this.parent.insertAdjacentHTML('beforeend', ' <ul class="card-list">');
     const ulElement = this.parent.querySelector('ul');
     CreatedWidget.cardList.forEach((item) => {
