@@ -60,7 +60,7 @@ jobs:
           node-version: 20.11.0
           cache: 'yarn'
       - run: yarn
-      - run: $env:NODE_OPTIONS = "--openssl-legacy-provider" 
+      # - run: $env:NODE_OPTIONS = "--openssl-legacy-provider" 
       - run: yarn build
       - name: Setup Pages
         uses: actions/configure-pages@v4
