@@ -27,7 +27,7 @@ export default class CreatedWidget {
 
 CreatedWidget.cardList = [
   {
-    id: 'Visa', src: '../src/img/visa.png', title: 'Visa', alt: 'Visa',
+    id: 'Visa', src: '../../../src/img/visa.png', title: 'Visa', alt: 'Visa',
   },
   {
     id: 'MasterCard', src: '../src/img/mastercard.png', title: 'MasterCard', alt: 'MasterCard',
