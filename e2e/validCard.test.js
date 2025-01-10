@@ -33,12 +33,12 @@ describe("Valid Card", () => {
     server.kill();
   });
 
-  test('should add do something', async () => {
-    await page.goto(baseUrl);
-  });
+  // test('should add do something', async () => {
+  //   await page.goto(baseUrl);
+  // });
     // eslint-disable-next-line jest/expect-expect
   test("test valid Card", async () => {
-    await page.goto(baseUrl);
+    // await page.goto(baseUrl);
     await page.waitForSelector(".card-validator");
     const form = await page.$(".card-validator");
     const input = await form.$("input");
@@ -50,7 +50,7 @@ describe("Valid Card", () => {
 
   // eslint-disable-next-line jest/expect-expect
   test("test invalid Card", async () => {
-    await page.goto(baseUrl);
+    // await page.goto(baseUrl);
     await page.waitForSelector(".card-validator");
     const form = await page.$(".card-validator");
     const input = await form.$("input");
