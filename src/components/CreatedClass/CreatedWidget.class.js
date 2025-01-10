@@ -1,3 +1,5 @@
+import visa from '../../img/visa.png';
+
 export default class CreatedWidget {
   constructor(parent) {
     this.parent = parent;
@@ -27,7 +29,7 @@ export default class CreatedWidget {
 
 CreatedWidget.cardList = [
   {
-    id: 'Visa', src: '/src/img/visa.png', title: 'Visa', alt: 'Visa',
+    id: 'Visa', src: `${visa}`, title: 'Visa', alt: 'Visa',
   },
   {
     id: 'MasterCard', src: '../src/img/mastercard.png', title: 'MasterCard', alt: 'MasterCard',
