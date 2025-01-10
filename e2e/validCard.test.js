@@ -4,7 +4,7 @@ import { fork } from 'child_process';
 jest.setTimeout(30000); // default puppeteer timeout
 
 describe("Valid Card", () => {
-  let browser = null;
+  // let browser = null;
   let page = null;
   let server = null;
   const baseUrl = 'http://localhost:9000';
@@ -25,11 +25,11 @@ describe("Valid Card", () => {
     //   slowMo: 250,
     //   devtools: false, // show devTools
     // });
-    page = await browser.newPage();
+    // page = await browser.newPage();
   });
 
   afterAll(async () => {
-    await browser.close();
+    // await browser.close();
     server.kill();
   });
 
