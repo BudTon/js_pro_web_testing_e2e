@@ -1,4 +1,10 @@
 import visa from '../../img/visa.png';
+import masterCard from '../../img/mastercard.png';
+import americanExpress from '../../img/american-express.png';
+import discover from '../../img/discover.png';
+import jbs from '../../img/jcb.png';
+import dinersClub from '../../img/diners-club.png';
+import mir from '../../img/mir.png';
 
 export default class CreatedWidget {
   constructor(parent) {
@@ -32,21 +38,21 @@ CreatedWidget.cardList = [
     id: 'Visa', src: `${visa}`, title: 'Visa', alt: 'Visa',
   },
   {
-    id: 'MasterCard', src: '../src/img/mastercard.png', title: 'MasterCard', alt: 'MasterCard',
+    id: 'MasterCard', src: `${masterCard}`, title: 'MasterCard', alt: 'MasterCard',
   },
   {
-    id: 'AmericanExpress', src: '../src/img/american-express.png', title: 'American Express', alt: 'American Express',
+    id: 'AmericanExpress', src: `${americanExpress}`, title: 'American Express', alt: 'American Express',
   },
   {
-    id: 'Discover', src: '../src//img/discover.png', title: 'Discover', alt: 'Discover',
+    id: 'Discover', src: `${discover}`, title: 'Discover', alt: 'Discover',
   },
   {
-    id: 'JSB', src: '../src//img/jcb.png', title: 'JSB', alt: 'JSB',
+    id: 'JSB', src: `${jbs}`, title: 'JSB', alt: 'JSB',
   },
   {
-    id: 'DinersClub', src: '../src//img/diners-club.png', title: 'Diners Club', alt: 'Diners Club',
+    id: 'DinersClub', src: `${dinersClub}`, title: 'Diners Club', alt: 'Diners Club',
   },
   {
-    id: 'Mir', src: '../src//img/mir.png', title: 'Мир', alt: 'Мир',
+    id: 'Mir', src: `${mir}`, title: 'Мир', alt: 'Мир',
   },
 ];
