@@ -20,11 +20,16 @@ describe("Valid Card", () => {
       });
     });
 
+    // browser = await puppeteer.launch({
+    //   // headless: true, // show gui
+    //   // slowMo: 250,
+    //   // devtools: false, // show devTools
+    // });
+
     browser = await puppeteer.launch({
-      // headless: true, // show gui
-      // slowMo: 250,
-      // devtools: false, // show devTools
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
+
     page = await browser.newPage();
   });
 
